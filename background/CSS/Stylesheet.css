@@ -1,0 +1,16 @@
+/* @auothor Erikaatm */
+
+body {
+    background-color: khaki;
+    margin: 0%;
+}
+
+#d1 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    /* background: linear-gradient(to right top, red, blue, yellow); */
+    /* background: radial-gradient(pink, violet, cyan, lime); */
+    background: conic-gradient(at 0% 5%, red, orange, yellow, lime, cyan, violet, red);
+    margin: 5%;
+}
