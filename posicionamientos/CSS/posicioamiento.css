@@ -1,0 +1,102 @@
+body {
+    margin: 0%;
+    width: 1000px;
+    height: 2000px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: block;
+    /* opacity: 0.4; */
+}
+
+/*Posiciones*/
+#static {
+    background-color: rgb(107, 98, 242);
+    position: static;
+}
+
+
+/* la static es la que viene por defecto */
+
+#relative {
+    background-color: rgb(213, 254, 8);
+    position: relative;
+    /* top: 100px; */
+    left: 100px;
+}
+
+
+/* el relative se pone apartir de otros objetos */
+
+#absolute {
+    background-color: mediumseagreen;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+#fixed {
+    background-color: rgb(255, 0, 255);
+    position: fixed;
+    top: 0%;
+    right: 0%;
+}
+
+
+/* El fixed se queda fijo en la pantalla */
+
+
+/*Divisiones*/
+.segunda {
+    background-color: yellow;
+    width: 100%;
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+}
+
+.d1,
+.d2,
+.d3 {
+    position: relative;
+    display: inline-block;
+}
+
+.d1 {
+    background-color: green;
+}
+
+.d2 {
+    background-color: violet;
+}
+
+.d3 {
+    background-color: blue;
+}
+
+
+/*Stickys*/
+
+#Sticky1,
+#Sticky2,
+#Sticky3 {
+    position: sticky;
+    border: 1px solid blue;
+    top: 0px;
+}
+
+#Sticky1 {
+    background-color: pink;
+}
+
+#Sticky2 {
+    background-color: red;
+}
+
+#Sticky3 {
+    background-color: brown;
+}
